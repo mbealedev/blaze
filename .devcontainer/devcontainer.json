@@ -1,0 +1,14 @@
+{
+  "name": "ARM64 Linux Assembly",
+  "build": {
+    "dockerfile": "Dockerfile"
+  },
+  "customizations": {
+  "vscode": {
+    "extensions": [
+      "ms-vscode.cpptools",
+      "BMW-CDC-Team.asm-enable-debug"
+    ]
+  }
+}
+}

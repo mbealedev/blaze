@@ -1,0 +1,20 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Debug blaze main.blz",
+      "type": "cppdbg",
+      "request": "launch",
+      "program": "${workspaceFolder}/blaze",
+      "args": [
+        "main.blz"
+      ],
+      "cwd": "${workspaceFolder}",
+      "stopAtEntry": true,
+      "externalConsole": false,
+      "MIMode": "gdb",
+      "miDebuggerPath": "/usr/bin/gdb",
+      "preLaunchTask": "build"
+    }
+  ]
+}

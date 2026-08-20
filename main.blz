@@ -1,0 +1,24 @@
+Object bob {
+    {
+        @var l:Byte(0x25)
+        @var h:Byte('x')
+    }
+    @property(const, get, set)
+    abc:Integer(424)
+
+    @function(shared)
+    doubleNumber:(a:Integer, b:String)->List of Integer {
+        x:List([]).forEach(x:String-)
+
+        @var d:Bob().abc(5)
+        @var x:String("Blobby")
+        ewd:Map of Integer:String(25:'bob', 35:'jimmy')
+        @var s:[]=
+    }
+
+    @property(const)
+    p:function = doubleNumber
+
+
+}
+

@@ -1,0 +1,13 @@
+version: "3.8"
+services:
+  gdbfrontend:
+    image: gdbfrontend:latest
+    volumes:
+      - /Users/mike/Dev/assembly:/Development
+    ports:
+      - "1234:1234"  # Expose port 1234 for GDB server
+      - "5550:5550"
+    stdin_open: true
+    tty: true
+    command: bash
+    working_dir: /Development
