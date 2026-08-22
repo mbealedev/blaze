@@ -2,10 +2,10 @@
   "version": "0.2.0",
   "configurations": [
     {
-      "name": "Debug blaze main.blz",
+      "name": "Debug blz main.blz",
       "type": "cppdbg",
       "request": "launch",
-      "program": "${workspaceFolder}/blaze",
+      "program": "${workspaceFolder}/blz",
       "args": [
         "main.blz"
       ],

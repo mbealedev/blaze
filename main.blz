@@ -7,12 +7,12 @@ Object bob {
     abc:Integer(424)
 
     @function(shared)
-    doubleNumber:(a:Integer, b:String)->List of Integer {
+    doubleNumber:(a:Int, b:String)->List of Integer {
         x:List([]).forEach(x:String-)
 
         @var d:Bob().abc(5)
         @var x:String("Blobby")
-        ewd:Map of Integer:String(25:'bob', 35:'jimmy')
+        ewd:Map of Int:String(25:'bob', 35:'jimmy')
         @var s:[]=
     }
 
